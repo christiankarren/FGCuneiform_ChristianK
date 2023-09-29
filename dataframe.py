@@ -22,13 +22,4 @@ if __name__ == '__main__':
     #sentence = input("Please enter a transliteration sentence for translation\n")
     # print(translate_transliteration(sentence))
 
-import pandas as pd
-
-def translate_column_to_english(data_frame, column_name):
-    def translate_transliteration(text):
-        # Replace this with your translation logic
-        # For example, you can use the translate_transliteration function here
-        return translate_transliteration(text)
-    data_frame['English Translation'] = data_frame[column_name].apply(translate_transliteration)
-    return data_frame
 
